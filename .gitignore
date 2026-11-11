@@ -1,0 +1,6 @@
+.superpowers/
+mods/vercel-panel/**/*.d.ts
+mods/vercel-panel/**/jsconfig.json
+mods/vercel-panel/*.d.ts
+mods/vercel-panel/jsconfig.json
+.DS_Store

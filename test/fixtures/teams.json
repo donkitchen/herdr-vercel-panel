@@ -1,0 +1,14 @@
+{
+ "teams": [
+  {
+   "id": "team_acme",
+   "slug": "acme",
+   "name": "Acme Co"
+  },
+  {
+   "id": "team_side",
+   "slug": "side",
+   "name": "Side Project"
+  }
+ ]
+}

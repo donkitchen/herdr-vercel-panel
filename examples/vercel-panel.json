@@ -1,0 +1,7 @@
+{
+  "mute": [{ "project": "scheduled-site", "author": "github-actions[bot]", "target": "production" }],
+  "bots": ["acme-bot"],
+  "me": ["your-github-login"],
+  "projects": { "recent_days": 14 },
+  "agent": { "argv": ["claude"] }
+}

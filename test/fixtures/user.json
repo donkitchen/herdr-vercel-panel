@@ -1,0 +1,8 @@
+{
+ "user": {
+  "id": "u1",
+  "username": "alice",
+  "githubLogin": "alice-gh",
+  "email": "alice@example.com"
+ }
+}

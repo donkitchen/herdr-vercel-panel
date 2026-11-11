@@ -1,0 +1,53 @@
+{
+ "projects": [
+  {
+   "id": "prj_web",
+   "name": "web",
+   "link": {
+    "type": "github",
+    "org": "acme",
+    "repo": "monorepo"
+   },
+   "targets": {
+    "production": {
+     "alias": [
+      "web.acme.example",
+      "web-acme.vercel.app",
+      "web.vercel.app"
+     ],
+     "url": "web-prod1-acme.vercel.app",
+     "readyState": "READY",
+     "createdAt": 1794352800000
+    }
+   }
+  },
+  {
+   "id": "prj_api",
+   "name": "api",
+   "link": {
+    "type": "github",
+    "org": "acme",
+    "repo": "monorepo"
+   },
+   "targets": {
+    "production": {
+     "alias": [
+      "api.vercel.app",
+      "api-acme.vercel.app"
+     ],
+     "url": "api-prod1-acme.vercel.app",
+     "readyState": "READY",
+     "createdAt": 1794352800000
+    }
+   }
+  },
+  {
+   "id": "prj_tool",
+   "name": "tool",
+   "link": {
+    "type": "gitlab",
+    "projectNamespace": "x"
+   }
+  }
+ ]
+}

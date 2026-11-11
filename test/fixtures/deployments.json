@@ -1,0 +1,179 @@
+{
+ "deployments": [
+  {
+   "uid": "dpl_WEB1aaaa",
+   "name": "web",
+   "projectId": "prj_web",
+   "url": "web-web1aa-acme.vercel.app",
+   "inspectorUrl": "https://vercel.com/acme/web/WEB1aaaa",
+   "state": "READY",
+   "readyState": "READY",
+   "target": null,
+   "created": 1794360000000,
+   "buildingAt": 1794360001000,
+   "ready": 1794360061000,
+   "meta": {
+    "githubCommitRef": "feat/x",
+    "githubCommitSha": "abc1234def",
+    "githubCommitAuthorLogin": "alice",
+    "githubOrg": "acme",
+    "githubRepo": "monorepo",
+    "branchAlias": "web-git-feat-x-acme.vercel.app"
+   },
+   "creator": {
+    "uid": "u1",
+    "username": "alice",
+    "githubLogin": "alice"
+   }
+  },
+  {
+   "uid": "dpl_API1aaaa",
+   "name": "api",
+   "projectId": "prj_api",
+   "url": "api-api1aa-acme.vercel.app",
+   "inspectorUrl": "https://vercel.com/acme/api/API1aaaa",
+   "state": "READY",
+   "readyState": "READY",
+   "target": null,
+   "created": 1794360000000,
+   "buildingAt": 1794360001000,
+   "ready": 1794360091000,
+   "meta": {
+    "githubCommitRef": "feat/x",
+    "githubCommitSha": "abc1234def",
+    "githubCommitAuthorLogin": "alice",
+    "githubOrg": "acme",
+    "githubRepo": "monorepo",
+    "branchAlias": "api-git-feat-x-acme.vercel.app"
+   },
+   "creator": {
+    "uid": "u1",
+    "username": "alice",
+    "githubLogin": "alice"
+   }
+  },
+  {
+   "uid": "dpl_ADM1aaaa",
+   "name": "admin",
+   "projectId": "prj_admin",
+   "url": "admin-adm1aa-acme.vercel.app",
+   "inspectorUrl": "https://vercel.com/acme/admin/ADM1aaaa",
+   "state": "BUILDING",
+   "readyState": "BUILDING",
+   "target": null,
+   "created": 1794360000000,
+   "buildingAt": 1794360002000,
+   "meta": {
+    "githubCommitRef": "feat/x",
+    "githubCommitSha": "abc1234def",
+    "githubCommitAuthorLogin": "alice",
+    "githubOrg": "acme",
+    "githubRepo": "monorepo",
+    "branchAlias": "admin-git-feat-x-acme.vercel.app"
+   },
+   "creator": {
+    "uid": "u1",
+    "username": "alice",
+    "githubLogin": "alice"
+   }
+  },
+  {
+   "uid": "dpl_WEB0cccc",
+   "name": "web",
+   "projectId": "prj_web",
+   "url": "web-web0cc-acme.vercel.app",
+   "inspectorUrl": "https://vercel.com/acme/web/WEB0cccc",
+   "state": "CANCELED",
+   "readyState": "CANCELED",
+   "target": null,
+   "created": 1794359940000,
+   "buildingAt": 1794359941000,
+   "meta": {
+    "githubCommitRef": "main",
+    "githubCommitSha": "0000aaa111",
+    "githubCommitAuthorLogin": "release-bot",
+    "githubOrg": "acme",
+    "githubRepo": "monorepo",
+    "branchAlias": "web-git-main-acme.vercel.app"
+   },
+   "creator": {
+    "uid": "u1",
+    "username": "alice",
+    "githubLogin": "alice"
+   }
+  },
+  {
+   "uid": "dpl_API0eeee",
+   "name": "api",
+   "projectId": "prj_api",
+   "url": "api-api0ee-acme.vercel.app",
+   "inspectorUrl": "https://vercel.com/acme/api/API0eeee",
+   "state": "ERROR",
+   "readyState": "ERROR",
+   "target": null,
+   "created": 1794359880000,
+   "buildingAt": 1794359881000,
+   "ready": 1794359940000,
+   "meta": {
+    "githubCommitRef": "fix/y",
+    "githubCommitSha": "fff9999eee",
+    "githubCommitAuthorLogin": "alice",
+    "githubOrg": "acme",
+    "githubRepo": "monorepo",
+    "branchAlias": "api-git-fix-y-acme.vercel.app"
+   },
+   "creator": {
+    "uid": "u1",
+    "username": "alice",
+    "githubLogin": "alice"
+   }
+  },
+  {
+   "uid": "dpl_SITEpppp",
+   "name": "site",
+   "projectId": "prj_site",
+   "url": "site-sitepp-acme.vercel.app",
+   "inspectorUrl": "https://vercel.com/acme/site/SITEpppp",
+   "state": "READY",
+   "readyState": "READY",
+   "target": "production",
+   "created": 1794359700000,
+   "buildingAt": 1794359701000,
+   "ready": 1794359710000,
+   "meta": {
+    "githubCommitRef": "main",
+    "githubCommitSha": "5555bbb666",
+    "githubCommitAuthorLogin": "github-actions[bot]",
+    "githubOrg": "acme",
+    "githubRepo": "site",
+    "branchAlias": null
+   },
+   "creator": {
+    "uid": "u1",
+    "username": "alice",
+    "githubLogin": "alice"
+   }
+  },
+  {
+   "uid": "dpl_CLI1zzzz",
+   "name": "tool",
+   "projectId": "prj_tool",
+   "url": "tool-cli1zz-acme.vercel.app",
+   "inspectorUrl": "https://vercel.com/acme/tool/CLI1zzzz",
+   "state": "READY",
+   "readyState": "READY",
+   "target": null,
+   "created": 1794359600000,
+   "ready": 1794359620000,
+   "meta": {},
+   "creator": {
+    "uid": "u1",
+    "username": "alice",
+    "githubLogin": "alice"
+   }
+  }
+ ],
+ "pagination": {
+  "count": 7
+ }
+}
