@@ -2,6 +2,8 @@
 
 A panel for the [Herdr](https://herdr.dev) desktop app that shows your Vercel deploys: what is building right now and how long it's taking, what each project has live in production, and its newest preview. Every site is one click away, a failed build toasts and stays in view, and one key hands the failure to the coding agent working on that branch.
 
+![vercel-panel](preview.png)
+
 It is a sibling of [pr-panel](https://github.com/donkitchen/herdr-pr-panel) and stacks under it: merge a PR there, watch it build here.
 
 ## Requirements
